@@ -1,0 +1,55 @@
+.intro{
+    &__container {
+        background-image: url(../assent/01\ 1.png);
+        height: 600px;
+        background-repeat: no-repeat;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        gap: 56px;
+    }
+    &__title {
+font-family: 'Fraunces';
+font-style: normal;
+font-weight: 900;
+font-size: 72px;
+line-height: 72px;
+color: #FEFCF7;
+
+
+    }
+    &__text {
+font-family: 'Barlow';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+width: 445px;
+color: #FEFCF7;
+
+mix-blend-mode: normal;
+opacity: 0.8;
+
+    }
+    &__btn {
+        @extend %btn-design;
+    }
+}
+.intro__btn {
+  width: 186px;
+  height: 71px;
+
+  background: #ffffff;
+  border-radius: 40px;
+}
+.intro__btn2 {
+  display: flex;
+  padding: 23px 47px;
+  gap: 10px;
+
+  width: 228px;
+  height: 71px;
+
+  background: #ffffff;
+  border-radius: 40px;
+}

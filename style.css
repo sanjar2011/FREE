@@ -1,0 +1,150 @@
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__menu {
+  display: flex;
+  gap: 45px;
+}
+.header__link {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.923077px;
+  text-transform: uppercase;
+  color: #83888f;
+}
+.header__link:hover {
+  color: black;
+}
+
+.header__container {
+  background-color: gray;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__menu {
+  display: flex;
+  gap: 45px;
+}
+.header__link {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.923077px;
+  text-transform: uppercase;
+  color: #83888f;
+}
+.header__link:hover {
+  color: black;
+} /*# sourceMappingURL=style.css.map */
+
+.intro__container {
+  background-image: url(../assent/01\ 1.png);
+  
+  height: 600px;
+  background-repeat: no-repeat;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  gap: 56px;
+}
+.intro__title {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 72px;
+  color: #fefcf7;
+}
+.intro__text {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  width: 445px;
+  color: #fefcf7;
+
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+.intro__btn {
+  width: 186px;
+  height: 71px;
+
+  background: #ffffff;
+  border-radius: 40px;
+}
+.intro__btn2 {
+  display: flex;
+  padding: 23px 47px;
+  gap: 10px;
+
+  width: 228px;
+  height: 71px;
+
+  background: #ffffff;
+  border-radius: 40px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+.container {
+  width: 1280px;
+  margin: 0 auto;
+}
+.header__btn {
+  padding: 20px;
+  border-radius: 100px;
+}
+.header__btn2 {
+  padding: 20px;
+  border-radius: 50px;
+}
+
+.intro__buttons {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 30px;
+}
+
+.Elik {
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  
+  gap: 20px;
+}
+
+
+.Elik__1440 {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 60px; 
+}
+.ff {
+  margin-top: 100px;
+  margin-left: 60px;
+}
